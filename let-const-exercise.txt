@@ -1,0 +1,10 @@
+ES2015 Version of var PI = 3.14;
+- const PI = 3.14;
+
+1) The first difference between var and let is that var is a function scope compared to let which is a block scoped variable. Therefore, let is more limited and concentrated to the block of code being executed. Also, var is a global variable and will be included in the "window". The second difference is that while var can be re-declared at any point in the code, let cannot be re-declared. 
+
+2) The first difference between var and const is that var is a function scope compared to const which is a block scoped variable. Therefore, const is more limited and concentrated to the block of code being executed. Also, var is global variable and will be included in the "window". The second difference is that the const variable cannot be re-assigned or re-declared. It is a set value in the code which is not meant to be altered. Var can be re-assigned and re-declared at any point in the code. 
+
+3) The main difference between let and const is that the value in let can be re-assigned or re-declared while const cannot. Const is a variable that is meant to be the same throughout the whole code and any alteration to it cannot be made. While running through code in a function with the let variable, it can be manipulated to have the value re-assigned or re-declared. 
+
+4) While using var, the browser interprets all of the declared variables first before running any code. This way it does not matter where var variables are placed in the code because hoisting allows the browser to use the code before the variables are declared. However, with let and const, this is not the case. The browser will not be able to process any code before the let and const variables have been declared. 
